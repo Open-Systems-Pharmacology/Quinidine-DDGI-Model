@@ -8678,616 +8678,6 @@
   ],
   "Simulations": [
     {
-      "Name": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, 3-hydroxyquinidine",
-        "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, quinidine"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 384.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 408.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_25|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_26|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_27|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_28|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_29|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_30|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_31|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_32|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_33|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_34|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Andreasen (1997) - quinidine sulfate 200 mg, po, s.d. day 17|Normal release quinidine sulfate (Weibull), Nguyen 2005|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Undefined Liver|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (liver)",
-          "Value": 2160.0,
-          "Unit": "min"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|3-Hydroxyquinidine|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Carbamazepine 10,11-epoxide|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Andreasen (2007) - Carbamazepine, n=10",
-      "Compounds": [
-        {
-          "Name": "3-Hydroxyquinidine",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Berezhkovskiy",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Assumed",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "MoleculeName": "CYP2C8"
-            },
-            {
-              "MoleculeName": "UGT2B7"
-            },
-            {
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "CYP2B6"
-            },
-            {
-              "MoleculeName": "EPHX1"
-            },
-            {
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Total Hepatic Clearance-Assumption",
-              "SystemicProcessType": "Hepatic"
-            },
-            {
-              "Name": "Glomerular Filtration-Assumption",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "Quinidine",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Berezhkovskiy",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "FIT",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Nielsen 1999 (3-Hydroxyquinidine), adjusted for fu,inc (70%)",
-              "MoleculeName": "CYP3A4",
-              "MetaboliteName": "3-Hydroxyquinidine"
-            },
-            {
-              "Name": "CYP3A4-Nielsen 1999 (sink), adjusted for fu,inc (70%)",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "MoleculeName": "CYP2C8"
-            },
-            {
-              "MoleculeName": "UGT2B7"
-            },
-            {
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "CYP2B6"
-            },
-            {
-              "MoleculeName": "EPHX1"
-            },
-            {
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Total Hepatic Clearance-Assumed",
-              "SystemicProcessType": "Hepatic"
-            },
-            {
-              "Name": "ABCB1-Tachibana 2010",
-              "MoleculeName": "ABCB1"
-            },
-            {
-              "MoleculeName": "ABCB1"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "MoleculeName": "OCT1"
-            },
-            {
-              "MoleculeName": "OAT3"
-            },
-            {
-              "MoleculeName": "MATE1"
-            },
-            {
-              "Name": "Glomerular Filtration-Assumption",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Andreasen (1997) - quinidine sulfate 200 mg, po, s.d. day 17",
-            "Formulations": [
-              {
-                "Name": "Normal release quinidine sulfate (Weibull), Nguyen 2005",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Carbamazepine",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Literature Lennernaes2007",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Huang et al 2004 - CBZ-E",
-              "MoleculeName": "CYP3A4",
-              "MetaboliteName": "Carbamazepine 10,11-epoxide"
-            },
-            {
-              "Name": "CYP3A4-Pearce et al - 2002 -  3-hydroxy",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "CYP2C8-Cazali 2003",
-              "MoleculeName": "CYP2C8"
-            },
-            {
-              "Name": "UGT2B7-Staines 2004 - mean",
-              "MoleculeName": "UGT2B7"
-            },
-            {
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "Name": "CYP2B6-Pearce 2002",
-              "MoleculeName": "CYP2B6"
-            },
-            {
-              "MoleculeName": "EPHX1"
-            },
-            {
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Total Hepatic Clearance-Pearce - hydroxy processes",
-              "SystemicProcessType": "Hepatic"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR (passive reabsorption)",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days",
-            "Formulations": [
-              {
-                "Name": "Tablet IR fed (Carbamazepine, Tegretol)",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Carbamazepine 10,11-epoxide",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "MoleculeName": "CYP2C8"
-            },
-            {
-              "MoleculeName": "UGT2B7"
-            },
-            {
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "CYP2B6"
-            },
-            {
-              "Name": "EPHX1-Kerr 1989",
-              "MoleculeName": "EPHX1"
-            },
-            {
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 384.0,
-              "Max": 408.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10-3-Hydroxyquinidine-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10|Organism|PeripheralVenousBlood|3-Hydroxyquinidine|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#A5A5A5",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10-Quinidine-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10|Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#000000",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, quinidine-Quinidine-Measurement",
-              "X": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, quinidine|Time",
-              "Y": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, quinidine|ObservedData|||Quinidine|Measurement",
-              "CurveOptions": {
-                "Color": "#000000",
-                "LegendIndex": 7,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, 3-hydroxyquinidine-3-Hydroxyquinidine-Measurement",
-              "X": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, 3-hydroxyquinidine|Time",
-              "Y": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, 3-hydroxyquinidine|ObservedData|||3-Hydroxyquinidine|Measurement",
-              "CurveOptions": {
-                "Color": "#A5A5A5",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Quinidine-Victim-DDI-Model_new_20230228\nAndreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10\n2023-03-02 17:00"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "ABCB1-Lumen 2010",
-          "MoleculeName": "ABCB1",
-          "CompoundName": "Quinidine"
-        },
-        {
-          "Name": "CYP3A4-mean of literature",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Carbamazepine"
-        },
-        {
-          "Name": "CYP2B6-Test",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Carbamazepine"
-        },
-        {
-          "Name": "EPHX1-Eichelbaum",
-          "MoleculeName": "EPHX1",
-          "CompoundName": "Carbamazepine"
-        }
-      ]
-    },
-    {
       "Name": "Andreasen (2007) - quinidine sulfate, po, 200 mg, n=10",
       "Model": "4Comp",
       "ObservedData": [
@@ -16466,6 +15856,637 @@
           "OriginText": "Quinidine-Victim-DDI-Model_new_20230228\nKolb (1984) - quinidine sulfate, 400 mg, po, n=9\n2023-03-02 17:12"
         }
       ]
+    },
+    {
+      "Name": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, 3-hydroxyquinidine",
+        "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, quinidine"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 384.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 408.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_29|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_30|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_31|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_32|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_33|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_34|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days|Tablet IR fed (Carbamazepine, Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Andreasen (1997) - quinidine sulfate 200 mg, po, s.d. day 17|Normal release quinidine sulfate (Weibull), Nguyen 2005|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|3-Hydroxyquinidine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Carbamazepine 10,11-epoxide|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Andreasen (2007) - Carbamazepine, n=10",
+      "Compounds": [
+        {
+          "Name": "3-Hydroxyquinidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Assumed",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP2C8"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "EPHX1"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Quinidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FIT",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Nielsen 1999 (3-Hydroxyquinidine), adjusted for fu,inc (70%)",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "3-Hydroxyquinidine"
+            },
+            {
+              "Name": "CYP3A4-Nielsen 1999 (sink), adjusted for fu,inc (70%)",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP2C8"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "EPHX1"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumed",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "ABCB1-Tachibana 2010",
+              "MoleculeName": "ABCB1"
+            },
+            {
+              "MoleculeName": "ABCB1"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "MoleculeName": "OCT1"
+            },
+            {
+              "MoleculeName": "OAT3"
+            },
+            {
+              "MoleculeName": "MATE1"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Andreasen (1997) - quinidine sulfate 200 mg, po, s.d. day 17",
+            "Formulations": [
+              {
+                "Name": "Normal release quinidine sulfate (Weibull), Nguyen 2005",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Carbamazepine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Literature Lennernaes2007",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Huang et al 2004 - CBZ-E",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "Carbamazepine 10,11-epoxide"
+            },
+            {
+              "Name": "CYP3A4-Pearce et al - 2002 -  3-hydroxy",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "CYP2C8-Cazali 2003",
+              "MoleculeName": "CYP2C8",
+              "MetaboliteName": "Carbamazepine 10,11-epoxide"
+            },
+            {
+              "Name": "UGT2B7-Staines 2004 - mean",
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "Name": "CYP2B6-Pearce 2002",
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "EPHX1"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Pearce - hydroxy processes",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR (passive reabsorption)",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Andreasen (1997) - carbamazepine 200/400 mg, po, b.i.d. 17 days",
+            "Formulations": [
+              {
+                "Name": "Tablet IR fed (Carbamazepine, Tegretol)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Carbamazepine 10,11-epoxide",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP2C8"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "Name": "EPHX1-Kerr 1989",
+              "MoleculeName": "EPHX1"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 384.0,
+              "Max": 408.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10-3-Hydroxyquinidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10|Organism|PeripheralVenousBlood|3-Hydroxyquinidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#A5A5A5",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10-Quinidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10|Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#000000",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, quinidine-Quinidine-Measurement",
+              "X": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, quinidine|Time",
+              "Y": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, quinidine|ObservedData|||Quinidine|Measurement",
+              "CurveOptions": {
+                "Color": "#000000",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, 3-hydroxyquinidine-3-Hydroxyquinidine-Measurement",
+              "X": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, 3-hydroxyquinidine|Time",
+              "Y": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/400 mg, n=10, 3-hydroxyquinidine|ObservedData|||3-Hydroxyquinidine|Measurement",
+              "CurveOptions": {
+                "Color": "#A5A5A5",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Carbamazepine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10|Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#FF0000",
+                "LegendIndex": 8
+              }
+            },
+            {
+              "Name": "Carbamazepine 10,11-epoxide-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10|Organism|PeripheralVenousBlood|Carbamazepine 10,11-epoxide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#0000FF",
+                "LegendIndex": 9
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Quinidine-Victim-DDI-Model_R1\nAndreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10 2\n2023-06-15 11:49"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "ABCB1-Lumen 2010",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Quinidine"
+        },
+        {
+          "Name": "CYP3A4-mean of literature",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Carbamazepine"
+        },
+        {
+          "Name": "CYP2B6-Test",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Carbamazepine"
+        },
+        {
+          "Name": "EPHX1-Eichelbaum",
+          "MoleculeName": "EPHX1",
+          "CompoundName": "Carbamazepine"
+        }
+      ]
     }
   ],
   "ObservedData": [
@@ -19885,8 +19906,8 @@
     {
       "Name": "Carbamazepine",
       "Classifiables": [
-        "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10",
-        "Andreasen (2007) - quinidine sulfate, po, 200 mg, n=10"
+        "Andreasen (2007) - quinidine sulfate, po, 200 mg, n=10",
+        "Andreasen (2007) - DDI - carbamazepine-quinidine, po, 400/200 mg, n=10"
       ]
     },
     {
